@@ -172,13 +172,13 @@ a.nav_mid_st{
     fill: var(--accent-color);
 }
 
-a.nav_right_mail{
+.nav_right_mail{
     text-decoration: none;
     color: var(--primary-text-color);
 }
 
-a.nav_right_mail:hover,
-a.nav_right_mail:focus {
+.nav_right_mail:hover,
+.nav_right_mail:focus {
     color: var(--accent-color);
 }
 
@@ -406,12 +406,13 @@ a.nav_right_mail:focus {
     align-items: center;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    
 }
 
 .client_img:hover,
 .client_img:focus {
     fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
 }
   /* ===========================OUR CLIENTS ===========================*/
 
@@ -485,8 +486,7 @@ a.nav_right_mail:focus {
 /* =======================FOOTER SECTION========================/ */
 
   /* =====================PORTFOLIO SECTION======================*/
-
-         
+    
 .portfolio_button{
     padding-top: 94px;
     display: flex;
@@ -494,6 +494,7 @@ a.nav_right_mail:focus {
     column-gap: 8px;
     margin-bottom: 34px;  
 }
+
 
 .p_button {
     height: 38px;
