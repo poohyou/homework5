@@ -544,6 +544,9 @@ a.nav_right_mail:focus {
 .p_block {
     width: 370px;
     height: 404px;
+}
+.p_block:hover,
+.p_block:focus {
     border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
