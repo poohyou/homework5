@@ -99,14 +99,14 @@ img {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
-    padding-bottom: 32px;
-    padding-top: 32px;
 }
 
 
 /* nav mid portfolio */
 .nav_mid {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a.nav_mid_st{
@@ -122,6 +122,8 @@ a.nav_mid_st{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
+    padding-bottom: 32px;
+    padding-top: 32px;
 }
 .nav_mid_active {
     color: var(--accent-color);
@@ -157,8 +159,11 @@ a.nav_mid_st{
 /* NAV RIGHT */
 .nav_right {
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-left: auto;
     gap: 50px;   
+
 }
 
 .icon_nav_right_mail {
@@ -175,17 +180,21 @@ a.nav_mid_st{
 .nav_right_mail{
     text-decoration: none;
     color: var(--primary-text-color);
+    display: flex;
+    align-items: center;
+    padding-bottom: 32px;
+    padding-top: 32px;
 }
 
 .nav_right_mail:hover,
 .nav_right_mail:focus {
     color: var(--accent-color);
 }
-
-.nav_right_number_group {
-    display: flex;
-    justify-self: center;
+.nav_right_mail:hover .icon_nav_right_mail {
+    fill: var(--accent-color);
 }
+
+
 
 .icon-smartphone {
     margin-right: 10px;
@@ -198,10 +207,16 @@ a.nav_mid_st{
 
 .nav_right_num_color {
     color: var(--primary-text-color);
+    display: flex;
+    padding-bottom: 32px;
+    padding-top: 32px;
 }
 .nav_right_num_color:hover,
 .nav_right_num_color:focus {
     color: #2196F3;
+}
+.nav_right_num_color:hover .icon-smartphone {
+    fill: var(--accent-color);
 }
  /* ==========================HEADER SECTION=============================== */
 
