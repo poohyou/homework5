@@ -126,6 +126,7 @@ a.nav_mid_st{
     line-height: 1.2;
     padding-bottom: 32px;
     padding-top: 32px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav_mid_active {
     position: relative;
@@ -187,6 +188,7 @@ a.nav_mid_st{
     fill: var(--primary-text-color);
     border: 24px;
     margin-right: 10px;  
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon_nav_right_mail:hover,
@@ -201,6 +203,8 @@ a.nav_mid_st{
     align-items: center;
     padding-bottom: 32px;
     padding-top: 32px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav_right_mail:hover,
@@ -216,6 +220,8 @@ a.nav_mid_st{
 .icon-smartphone {
     margin-right: 10px;
     fill: var(--primary-text-color);
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-smartphone:hover,
 .icon-smartphone:focus {
@@ -227,6 +233,8 @@ a.nav_mid_st{
     display: flex;
     padding-bottom: 32px;
     padding-top: 32px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav_right_num_color:hover,
 .nav_right_num_color:focus {
@@ -353,9 +361,7 @@ a.nav_mid_st{
     color: var(--white-color);
     background: rgba(47, 48, 58, 0.8);
 }
-.progect_img_text:hover {
-    border: 1px solid #000000
-}
+
 
 /* =========================PROGECTS SECTION ========================*/
 
@@ -416,6 +422,8 @@ a.nav_mid_st{
     border-radius: 50%;
     width: 44px;
     height: 44px;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team_icons_link:hover,
 .team_icons_link:focus {
@@ -426,6 +434,8 @@ a.nav_mid_st{
     width: 20px;
     height: 20px;
     fill: var(--social-icons);
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team_icons_link:hover .team_icons_group,
 .team_icons_link:focus .team_icons_group {
@@ -464,6 +474,8 @@ a.nav_mid_st{
     align-items: center;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client_img:hover,
@@ -536,6 +548,8 @@ a.nav_mid_st{
     fill: var(--white-color);
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer_title_img:hover,
 .footer_title_img:focus {
@@ -563,6 +577,8 @@ a.nav_mid_st{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .p_button:hover,
 .p_button:focus {
@@ -604,6 +620,8 @@ a.nav_mid_st{
 .p_block {
     width: 370px;
     height: 404px;
+
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .p_block:hover,
 .p_block:focus {
