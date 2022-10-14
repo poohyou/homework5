@@ -248,6 +248,7 @@ a.nav_mid_st{
     background-color: #C4C4C4;
     background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/hero/hero.png);
     background-size: cover;
+    margin-top: -1px;
 }
 .hero_title {
     text-align: center;
@@ -525,6 +526,7 @@ a.nav_mid_st{
     justify-content: center;
     column-gap: 8px;
     margin-bottom: 34px;  
+    margin-top: -1px;
 }
 
 
