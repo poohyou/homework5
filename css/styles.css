@@ -69,8 +69,9 @@ img {
 .conteiner_header {
     display: flex;
     align-items: center;
+}
+.conteiner_header_border {
     border-bottom: 1px solid #ECECEC;
-
 }
 
 
@@ -127,8 +128,23 @@ a.nav_mid_st{
     padding-top: 32px;
 }
 .nav_mid_active {
+    position: relative;
     color: var(--accent-color);
+    padding-bottom: 32px;
 }
+.nav_mid_active::after {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+}
+
 .nav_mid_st:hover,
 .nav_mid_st:focus {
     color: var(--accent-color);
