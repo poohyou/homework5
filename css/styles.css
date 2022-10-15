@@ -716,7 +716,8 @@ a.nav_mid_st{
 }
 .modal_icon_close {
     position: absolute;
-    left: 92%;
+    right: 12px;
+    top: 8px;
 
     display: flex;
     border: none;
